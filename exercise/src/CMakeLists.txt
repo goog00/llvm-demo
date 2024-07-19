@@ -1,6 +1,7 @@
 add_executable(
-    test
-    test.cpp
- 
+    exercise
+    # test.cpp
+
+    PhiCreate.cpp
 )
-target_link_libraries(test PRIVATE ${llvm_libs})
+target_link_libraries(exercise PRIVATE ${llvm_libs})
