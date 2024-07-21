@@ -38,3 +38,4 @@ build-tinylang/
 
 #other
 *.dSYM
+.vscode
