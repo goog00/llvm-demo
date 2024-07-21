@@ -5,7 +5,7 @@ set(LLVM_TUTOR_PLUGINS
     # DynamicCallCounter
     # FindFCmpEq
     # ConvertFCmpEq
-    # InjectFuncCall
+     InjectFuncCall
     # MBAAdd
     # MBASub
     # RIV
@@ -22,8 +22,8 @@ set(LLVM_TUTOR_PLUGINS
 #   FindFCmpEq.cpp)
 # set(ConvertFCmpEq_SOURCES
 #   ConvertFCmpEq.cpp)
-# set(InjectFuncCall_SOURCES
-#   InjectFuncCall.cpp)
+set(InjectFuncCall_SOURCES
+  InjectFuncCall.cpp)
 # set(MBAAdd_SOURCES
 #   MBAAdd.cpp)
 # set(MBASub_SOURCES
