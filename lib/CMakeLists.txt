@@ -1,8 +1,8 @@
 # THE LIST OF PLUGINS AND THE CORRESPONDING SOURCE FILES
 # ======================================================
 set(LLVM_TUTOR_PLUGINS
-    # StaticCallCounter
-    # DynamicCallCounter
+    StaticCallCounter
+    DynamicCallCounter
     # FindFCmpEq
     # ConvertFCmpEq
      InjectFuncCall
@@ -14,10 +14,10 @@ set(LLVM_TUTOR_PLUGINS
     # MergeBB
     )
 
-# set(StaticCallCounter_SOURCES
-#   StaticCallCounter.cpp)
-# set(DynamicCallCounter_SOURCES
-#   DynamicCallCounter.cpp)
+set(StaticCallCounter_SOURCES
+  StaticCallCounter.cpp)
+set(DynamicCallCounter_SOURCES
+  DynamicCallCounter.cpp)
 # set(FindFCmpEq_SOURCES
 #   FindFCmpEq.cpp)
 # set(ConvertFCmpEq_SOURCES
