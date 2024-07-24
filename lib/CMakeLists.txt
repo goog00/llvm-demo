@@ -7,7 +7,7 @@ set(LLVM_TUTOR_PLUGINS
     # ConvertFCmpEq
      InjectFuncCall
     # MBAAdd
-    # MBASub
+    MBASub
     # RIV
     # DuplicateBB
     OpcodeCounter
@@ -26,8 +26,8 @@ set(InjectFuncCall_SOURCES
   InjectFuncCall.cpp)
 # set(MBAAdd_SOURCES
 #   MBAAdd.cpp)
-# set(MBASub_SOURCES
-#   MBASub.cpp)
+set(MBASub_SOURCES
+  MBASub.cpp)
 # set(RIV_SOURCES
 #   RIV.cpp)
 # set(DuplicateBB_SOURCES
