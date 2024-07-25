@@ -3,10 +3,10 @@
 set(LLVM_TUTOR_PLUGINS
     StaticCallCounter
     DynamicCallCounter
-    # FindFCmpEq
-    # ConvertFCmpEq
+    FindFCmpEq
+    ConvertFCmpEq
      InjectFuncCall
-    # MBAAdd
+    MBAAdd
     MBASub
     # RIV
     # DuplicateBB
@@ -18,14 +18,14 @@ set(StaticCallCounter_SOURCES
   StaticCallCounter.cpp)
 set(DynamicCallCounter_SOURCES
   DynamicCallCounter.cpp)
-# set(FindFCmpEq_SOURCES
-#   FindFCmpEq.cpp)
-# set(ConvertFCmpEq_SOURCES
-#   ConvertFCmpEq.cpp)
+set(FindFCmpEq_SOURCES
+  FindFCmpEq.cpp)
+set(ConvertFCmpEq_SOURCES
+  ConvertFCmpEq.cpp)
 set(InjectFuncCall_SOURCES
   InjectFuncCall.cpp)
-# set(MBAAdd_SOURCES
-#   MBAAdd.cpp)
+set(MBAAdd_SOURCES
+  MBAAdd.cpp)
 set(MBASub_SOURCES
   MBASub.cpp)
 # set(RIV_SOURCES

@@ -8,7 +8,7 @@
 #include "llvm/Passes/PassBuilder.h"
 #include "llvm/Passes/PassPlugin.h"
 #include "llvm/Transforms/Utils/BasicBlockUtils.h"
-
+//随机库
 #include <random>
 
 using namespace llvm;
@@ -103,7 +103,7 @@ PreservedAnalyses MBAAdd::run(llvm::Function &F,
 }
 
 
-/-----------------------------------------------------------------------------
+//-----------------------------------------------------------------------------
 // New PM Registration
 //-----------------------------------------------------------------------------
 llvm::PassPluginLibraryInfo getMBAAddPluginInfo() {
